@@ -23,10 +23,12 @@ document.querySelector('#menu-btn').onclick = () =>{
    body.classList.toggle('active');
 }
 
+
 document.querySelector('.side-bar .close-side-bar').onclick = () =>{
    sideBar.classList.remove('active');
    body.classList.remove('active');
 }
+
 
 document.querySelectorAll('input[type="number"]').forEach(InputNumber => {
    InputNumber.oninput = () =>{
