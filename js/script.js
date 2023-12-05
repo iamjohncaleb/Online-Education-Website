@@ -15,6 +15,7 @@ document.querySelector('#search-btn').onclick = () =>{
    profile.classList.remove('active');
 }
 
+
 let sideBar = document.querySelector('.side-bar');
 
 document.querySelector('#menu-btn').onclick = () =>{
