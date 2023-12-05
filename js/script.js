@@ -7,14 +7,12 @@ document.querySelector('#user-btn').onclick = () =>{
    searchForm.classList.remove('active');
 }
 
-
 let searchForm = document.querySelector('.header .flex .search-form');
 
 document.querySelector('#search-btn').onclick = () =>{
    searchForm.classList.toggle('active');
    profile.classList.remove('active');
 }
-
 
 let sideBar = document.querySelector('.side-bar');
 
